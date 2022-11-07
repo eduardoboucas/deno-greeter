@@ -11,3 +11,6 @@ Content-Type = "application/javascript; charset=utf-8"
 for = "/*.ts"
 [headers.values]
 Content-Type = "application/typescript; charset=utf-8"
+
+[[context.production.plugins]]
+package = "netlify-changelog-redirects"
