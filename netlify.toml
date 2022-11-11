@@ -13,7 +13,7 @@ for = "/*.ts"
 Content-Type = "application/typescript; charset=utf-8"
 
 [[context.production.plugins]]
-package = "netlify-changelog-redirects"
+package = "@netlify/changelog-redirects"
 
 [[edge_functions]]
 function = "api"

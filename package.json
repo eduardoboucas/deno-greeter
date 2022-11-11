@@ -2,6 +2,6 @@
   "name": "deno-module-template",
   "private": true,
   "dependencies": {
-    "netlify-changelog-redirects": "^0.1.0"
+    "@netlify/plugin-changelog-redirects": "^0.1.0"
   }
 }
